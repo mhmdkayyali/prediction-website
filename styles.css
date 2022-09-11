@@ -9,14 +9,14 @@
 }
 
 .section1{
-    padding-top: 5vh;
+    padding-top: 2vh;
     background-color: #3F72AF;
     /* display: flex; */
     
 }
 
 .section1-font-color{
-    color: white;
+    color: #F9F7F7;
     display: flex;
     justify-content: center;
 }
@@ -30,7 +30,7 @@
 }
 
 .p-font-size{
-    color: white;
+    color: #F9F7F7;
     display: flex;
     font-size: 9px;
     justify-content: end;
@@ -49,25 +49,19 @@
     margin: 0 25vw 0 25vw;
 }
 
-.flex{
-    display: flex;
-    flex-direction: column;
-}
-
 .name{
-    margin-top: 10vh;
-    margin-left: 33vh;
+    margin-top: 7vh;
     font-size: 15px;
+    color: #F9F7F7;
 }
 
 .name-input{
-    margin-left: 33vh;
     padding-bottom: 5vh;
 }
 
 #name{
     margin-top: 2vh;
-    padding: 1vh 3vw;
+    padding: 1vh 3vw 1vh 0.5vw;
     border-radius: 10px;
     border: none;
     background-color: #F9F7F7;
@@ -97,4 +91,8 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+.result{
+    
 }

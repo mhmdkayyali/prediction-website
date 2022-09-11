@@ -35,4 +35,14 @@ function predicting(){
         })
 
 
+    let apiNationality = "https://api.nationalize.io/?name="
+    let name2 = document.getElementById("name").value
+    let NationalityApiKey = apiNationality + name2
+    console.log(NationalityApiKey)
+    fetch(NationalityApiKey)
+        .then(Response => Response.json())
+        .then(data => {
+            document.getElementById("nationality").innerHTML = data.country[0]["country_id"]
+        })
+
 }
